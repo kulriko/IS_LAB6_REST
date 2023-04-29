@@ -4,7 +4,7 @@ class Database
     private $host = 'localhost';
     private $user = 'root';
     private $password = "";
-    private $database = "world";
+    private $database = "docker-compose";
 
     public function getConnection()
     {
